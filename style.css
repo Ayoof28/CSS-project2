@@ -155,6 +155,7 @@
 
  /* About Section*/
  .about {
+    width: 100%;
      background-color: #23242b;
      display: flex;
      justify-content: right;
@@ -173,25 +174,28 @@
      color: white;
  }
 
- .about .about-container .about-card{
-     display:inline;
-     justify-content:center;
-     align-items: center;
-     flex-wrap: wrap;
-     flex-direction:column;
-     transform:center;
-     /* margin: 20;
-     padding: 20px;
-     gap: 20px; */
- }
-
+ .cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
  .about-card img {
-    display:block;
      width:320px;
      height: 200px;
      margin:20px;
      padding:20px;
      border-radius: 5px;
+ }
+
+ .about-card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
  }
 
  .about .about-container h3 {
